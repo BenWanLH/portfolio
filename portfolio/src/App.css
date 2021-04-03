@@ -2,6 +2,13 @@
   text-align: center;
 }
 
+@keyframes fadeIn {
+  from {opacity:0;}
+  to {opacity:1;}
+}
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +42,14 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.banner{
+  background-image: url("./banner2.jpg");
+  width:100%;
+  height:280px;
+  animation: fadeIn ease 2s;
+  background-position:center;
+  background-size:cover;
+  background-repeat: no-repeat;
 }
