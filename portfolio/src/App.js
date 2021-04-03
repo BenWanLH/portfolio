@@ -27,7 +27,7 @@ function App() {
                             </div>
                             <h2>About Myself</h2>
                             <div className="u-margin-top-8">
-                                Hey there! I'm <b>Li Hau</b> a front-end developer. Started my career as a front-end developer in 2019. Enjoy coding and developing new things.
+                                Hey there! I'm <a className="about-myself__name" target="_blank" href="https://www.linkedin.com/in/li-hau-wan-87741214b/"><b>Li Hau</b></a> a front-end developer. Started my career as a front-end developer in 2019. Enjoy coding and developing new things.
                             </div>
                         </div>
                     </div>

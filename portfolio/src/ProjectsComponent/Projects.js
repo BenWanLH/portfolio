@@ -32,7 +32,7 @@ export class Projects extends React.Component{
         return(
             <div className="projects u-padding-16" id="projects">
                 <p className="projects__title">Projects</p>
-                <p className="projects__sub-title u-margin-top-8">Due to my job scope, quite a few projects that I worked on will not be featured below.</p>
+                <p className="projects__sub-title u-margin-top-8">Due to the nature of my job scope, quite a few projects that I worked on will not be featured below.</p>
                 <div className="projects__container u-margin-top-16">
                    {projectCards}
 
