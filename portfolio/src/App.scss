@@ -3,11 +3,11 @@
 
 .main{
     padding-top:$headerHeight;
+    animation: fadeIn 2s ease;
 }
 
 .about-myself{
     
-    animation: fadeIn 3s;
     max-width:900px; 
     min-height:40vh;
     width:100%;
