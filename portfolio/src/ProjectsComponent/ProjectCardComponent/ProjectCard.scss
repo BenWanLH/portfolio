@@ -7,13 +7,15 @@
         position:relative;
         background-color:#FFF;
         width:300px;
-        height:200px;
+        height:350px;
         border:1px solid #c7cfd5;
         @include card-radius();
         margin:16px auto;
         @media screen and (max-width:320px) {
             width:280px;
-            height:180px;
+        }
+        &__description{
+            border-top:1px solid #c7cfd5;
         }
         &__cta{
             background-color:transparent;
@@ -26,7 +28,7 @@
             min-width:120px;
             padding:8px;
             position:absolute;
-            top:75%;
+            top:50%;
             left:50%;
             transform:translate(-50%,-50%);
             &:focus{
@@ -38,14 +40,16 @@
         }
         &__title{
             // margin-top:8px;
-            font-size:20px; 
-            color:white;
-            z-index:1;
-            position:absolute;
-            top:25%;
-            left:50%;
-            transform:translateX(-50%);
-            width:100%;
+            // font-size:20px; 
+            // color:white;
+            // z-index:1;
+            // position:absolute;
+            // top:25%;
+            // left:50%;
+            // transform:translateX(-50%);
+            // width:100%;
+            // font-weight:600;
+            padding-bottom:8px;
             font-weight:600;
         }
         &__overlay{
@@ -78,7 +82,10 @@
         background-repeat: no-repeat;
         background-position: center;
         background-size:cover;
-        height:100%;
+        height:200px;
         @include card-radius();
+        @media screen and (max-width:320px) {
+            height:180px;
+        }
     }
 }

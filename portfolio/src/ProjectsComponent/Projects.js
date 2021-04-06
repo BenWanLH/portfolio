@@ -9,13 +9,13 @@ export class Projects extends React.Component{
             projects:[
                 {
                     "title":"DBS SME Webpage",
-                    "desc":"Developed prototype components using angular before integrating to liferay",
+                    "desc":"Developed and maintained reusable components using angular and integrated those components into a liferay application.",
                     "bannerName":"dbs-sme.JPG",
                     "url":"https://www.dbs.com.sg/sme"
                 },
                 {
                     "title":"DBS Online Loan Application Form",
-                    "desc":"Lead a team of ui developers to ",
+                    "desc":"Led a team of UI developers to create a single widget housing a multi-paged online loan application form.",
                     "bannerName":"olaf.JPG",
                     "url":"https://abl.dbs.com/sg-olaf-ui/"
                 }
