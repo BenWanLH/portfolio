@@ -1,0 +1,22 @@
+
+
+.projects{
+    max-width:900px;
+    margin:0 auto;
+    min-height:50vh;
+    &__container{
+        display:flex;
+        justify-content: center;
+        @media screen and (max-width:768px) {
+            display:block;
+        }
+    }
+    &__title{
+        font-size:40px;
+        font-weight:600;
+    }
+    &__sub-title{
+        color: #59656d;
+        font-weight:600;
+    }
+}

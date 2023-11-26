@@ -1,0 +1,47 @@
+
+.header{
+    z-index:99;
+    position:fixed;
+    width:100%;
+    top:0;
+    background-color: #FFFFFF;
+    box-shadow:0.3px 0.3px black;
+    &__container{
+        display:flex;
+        padding:8px 24px;
+    }
+
+    &__title{
+        cursor:pointer;
+        color: black;
+        font-size:32px;
+        margin: auto 0;
+        border: 2px solid black;
+        padding: 4px;
+        transition: transform .5s ease-in-out;
+        border-radius:10%;
+
+        &:hover{
+            transform:rotate3d(1, 1, 0, 360deg);
+            //animation: rotate 2s;
+        }
+    }
+    &__navigation{
+        display:flex;
+        margin: auto 0 ;
+        flex-grow:1;
+        justify-content: flex-end;
+        &__item{
+            color: black;
+            cursor: pointer;
+            font-weight:400;
+            &:hover{
+                background-color:black;
+                color:white;
+                border-radius:40px;
+            }
+
+        }
+
+    }
+}

@@ -1,0 +1,25 @@
+
+
+
+.skills-experience{
+    background-color:#282c34;
+    &__header{
+        color:white;
+        font-size:40px;
+    }
+    &__icon{
+        width:60px;
+        // filter: grayscale(1);
+        padding:4px;
+        @media screen and (max-width:768px) {
+            width:40px;
+        }
+    }
+    &__icons{
+        display:flex;
+        justify-content:center;
+        &__container{
+            margin:auto 0;
+        }
+    }
+}

@@ -1,0 +1,10 @@
+
+.carousel-item {
+    display:inline-block;
+    width: 100%;
+    scroll-snap-align: start;
+    
+    &__content {
+        white-space: normal;
+    };
+}

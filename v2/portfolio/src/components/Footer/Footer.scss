@@ -1,0 +1,16 @@
+
+
+.footer{
+    background-color:#282c34;
+    width:100%;
+
+    &__sticky-container{
+        position:fixed;
+        bottom:48px;
+        right:48px;
+    }
+
+    .u-width-50{
+        display:inline-block;
+    }
+}
