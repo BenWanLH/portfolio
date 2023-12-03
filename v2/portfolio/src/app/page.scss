@@ -118,29 +118,25 @@ img.carousel-item{
       }
 
       &--front {
-        background-image: url('/assets/cartoon_avatar.png');
-        background-size: cover;
         height: 100%;
-        background-repeat: no-repeat;
+        object-fit: contain;
       }
 
       &--back {
-        background-image: url('/assets/avatar2.jpg');
-        background-size: cover;
         height: 100%;
-        background-repeat: no-repeat;
+        object-fit: cover;
         transform: rotateY(180deg);
       }
     }
   }
 
-  img {
-    width: 400px;
+  // img {
+  //   width: 400px;
 
-    @media screen and (max-width:768px) {
-      width: 200px;
-    }
-  }
+  //   @media screen and (max-width:768px) {
+  //     width: 200px;
+  //   }
+  // }
 
   &__content {
     text-align: left;

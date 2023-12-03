@@ -79,11 +79,11 @@
         }
     }
     &__experience-img{
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size:cover;
         height:200px;
-        @include card-radius();
+        width: 100%;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        object-fit: cover;
         @media screen and (max-width:320px) {
             height:180px;
         }

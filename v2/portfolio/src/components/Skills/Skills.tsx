@@ -9,12 +9,12 @@ import "./Skills.scss"
 
 
 export default function Skills() {
-    const icons = [ "/assets/angular.png",
-        "/assets/react.png",
-        "/assets/bootstrap.png",
-        "/assets/jquery.png",
-        "/assets/nodejs.svg",
-        "/assets/npm.png"
+    const icons = [ "assets/angular.png",
+        "assets/react.png",
+        "assets/bootstrap.png",
+        "assets/jquery.png",
+        "assets/nodejs.svg",
+        "assets/npm.png"
     ];
 
     return (

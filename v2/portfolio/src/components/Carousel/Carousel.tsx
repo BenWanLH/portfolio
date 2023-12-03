@@ -39,6 +39,7 @@ function Carousel({ carouselItems, hideNav = false } : CarouselProp) {
        return carouselItems!.map((item, index) =>{
         return (
             <span 
+                key={index}
                 className={`carousel__footer__dot ${index === activeIndex ? 'carousel__footer__dot--active': ''}`}
                 onClick={()=>onDotClick(index)}
             >

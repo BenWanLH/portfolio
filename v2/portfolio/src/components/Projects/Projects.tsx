@@ -8,14 +8,14 @@ export default function Projects() {
         {
             "title": "DBS SME Webpage",
             "description": "Developed and maintained reusable components using angular and integrated those components into a liferay application.",
-            "bannerPath": "/assets/dbs-sme.JPG",
+            "bannerPath": "assets/dbs-sme.JPG",
             "url": "https://www.dbs.com.sg/sme"
         },
         {
             "title": "Personalise",
             "description": "Maintained and developed features for Personalise, a web personalisation and email tool for government agencies",
-            "bannerPath": "/assets/personalise-screenshot.png",
-            "url": "https://www.personalise.gov.sg"
+            "bannerPath": "assets/personalise-screenshot.png",
+            "url": "https://personalise.gov.sg/"
         }
     ]
 
